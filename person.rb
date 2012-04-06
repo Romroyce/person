@@ -25,4 +25,14 @@ class Person
 		@prenom= un_prenom
 	end
 
+		# getter
+	def age
+		return @age
+	end
+
+	#setter
+	def age=(un_age)
+		@age= un_age
+	end
+
 end
